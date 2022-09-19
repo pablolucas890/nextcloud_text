@@ -1,8 +1,10 @@
 # ANOTACOES
 
-Go to Nextcloud Server Folder and edit file webpack.modules.js on final:
+- Copy or install viewer App;
+
+- Go to Nextcloud Server Folder and edit file webpack.modules.js on final:
 ```
 text: {
-    text: path.join(__dirname, 'apps/text/src', 'text.js'),
+    main: path.join(__dirname, 'apps/text/src', 'main.js'),
 },
 ```
