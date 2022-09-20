@@ -54,7 +54,9 @@ const loadSyntaxHighlight = async (language) => {
 	}
 }
 
+//Cria o Editor
 const createEditor = ({ content, onCreate, onUpdate, extensions, enableRichEditing, session }) => {
+	
 	let richEditingExtensions = []
 	if (enableRichEditing) {
 		richEditingExtensions = [

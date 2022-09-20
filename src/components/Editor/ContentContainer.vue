@@ -62,7 +62,7 @@ export default {
 <style scoped lang="scss">
 	.editor__content {
 		//Container de edicao, aqui colocaremos a marca dagua
-		background-image: url(../../assets/obsolete.jpg);
+		// background-image: url(../../assets/obsolete.jpg);
 		background-size: 200px;
 		max-width: var(--text-editor-max-width);
 		margin: auto;

@@ -1,4 +1,4 @@
-<!--
+<!-- <!--
   - @copyright Copyright (c) 2019 Julius Härtl <jus@bitgrid.net>
   -
   - @author Julius Härtl <jus@bitgrid.net>
@@ -528,7 +528,6 @@ export default {
 						],
 						enableRichEditing: this.isRichEditor,
 					})
-
 					this.listenEditorEvents()
 
 					this.$syncService.state = this.$editor.state
@@ -810,4 +809,4 @@ export default {
 		0% { transform: rotate(0deg); }
 		100% { transform: rotate(360deg); }
 	}
-</style>
+</style> -->
